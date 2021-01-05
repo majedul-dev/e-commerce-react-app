@@ -22,8 +22,10 @@ const Hero = () => {
       </div>
       <div className='hero__slider'>
         <AliceCarousel
-          autoPlay={true}
-          autoPlayInterval={1000}
+          autoPlay
+          infinite={true}
+          animationType='fadeout'
+          autoPlayInterval={2000}
           disableButtonsControls>
           {bannerData.map((item) => (
             <div key={item.id} className='hero__slide'>

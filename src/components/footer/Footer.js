@@ -66,7 +66,7 @@ const Footer = () => {
         </div>
       </div>
       <div className='footer__bottom'>
-        <p>COPYRIGHT © 2019. All Rights Reserved By GeniusOcean.com</p>
+        <p>COPYRIGHT © 2019. All Rights Reserved By majedulislam.co</p>
       </div>
     </footer>
   );

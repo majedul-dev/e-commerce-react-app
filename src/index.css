@@ -79,6 +79,57 @@ p {
   background: var(--primary-color);
   border: 1px solid var(--primary-color);
 }
+
+.alice-carousel__prev-btn-wrapper,
+.alice-carousel__next-btn-wrapper {
+  position: absolute;
+  top: -2rem;
+  right: 0;
+}
+.alice-carousel__prev-btn-wrapper {
+  right: 2rem;
+}
+.alice-carousel__prev-btn-item {
+  position: relative;
+  color: #fff;
+  background: var(--primary-color);
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+.alice-carousel__prev-btn-item > span {
+  display: none;
+}
+.alice-carousel__prev-btn-item::after {
+  content: "\f104";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  color: #fff;
+  top: 4px;
+  left: 9px;
+}
+.alice-carousel__next-btn-item {
+  position: relative;
+  color: #fff;
+  background: var(--primary-color);
+  width: 17px;
+  height: 17px;
+  border-radius: 50%;
+}
+.alice-carousel__next-btn-item > span {
+  display: none;
+}
+.alice-carousel__next-btn-item::after {
+  content: "\f105";
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  position: absolute;
+  color: #fff;
+  top: 4px;
+  left: 10px;
+}
+
 @media (max-width: 576px) {
   .container {
     width: 95%;
